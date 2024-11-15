@@ -1,3 +1,21 @@
+-- DB = integrated collection of data
+-- DBSM sw package to store manage DB
+-- data independence, integrity, easier develop, redundant
+-- schema=structure of data(ralation,column name) rest is instance
+-- abstraction 1) physical=files,indexes  conceptual=logical(dtype,relation)  external=userside()
+-- degree=columns cardinality=rows
+
+CREATE TABLE Students (sid CHAR(20))
+INSERT INTO Students(sid) VALUES("n")
+
+DELETE
+FROM
+WHERE
+
+UPDATE Sailors S
+SET S.age = S.age+1, S.rating=S.rating*2
+WHERE S.age > 20 AND S.rating < 10
+
 -- sailors who reserved at least one boat
 SELECT S.name
 FROM Sailors S, Reserves R
